@@ -1,21 +1,36 @@
 <!--Section 1: Introduce your self-->
-## ABOUT ME
+## WHO I AM
 
-Hello! I'm Shivani Devaraj 👩‍💻, a data scientist-in-training and aspiring machine learning engineer based in Los Angeles, CA. I’m passionate about building intelligent systems and uncovering insights from complex data. With hands-on experience across deep learning, big data, and cloud technologies, I aim to bring impactful AI solutions to real-world problems.
+I am Shivani Devaraj 👩‍💻, a graduate student in Applied Data Science at the University of Southern California with a strong interest in solving real-world problems through data. My academic and internship experiences have allowed me to explore various aspects of data science, including analytics, machine learning, big data, and cloud technologies. I am particularly interested in roles that involve data-driven decision-making, model development, and building scalable data systems.
 
 <!--Mention your top/relevant skills here - core and soft skills-->
-## WHAT I DO
+## Core Skills & Key Focus Areas
 
-*Currently pursuing a Master’s in Applied Data Science at USC, I bring a strong foundation in AI, cloud computing, and data engineering, with experience from internships at Intel and HighRadius.*
+I have a strong technical foundation and hands-on experience through internships at Intel and HighRadius, and I am adept at working across all stages of the data science lifecycle. My expertise spans data analysis, machine learning, big data processing, and business intelligence, with a focus on data-driven decision-making, machine learning deployment, predictive modeling, ETL pipeline development, data governance, and analytics strategy.
 
-**- ✅ Data Science & Machine Learning.**  
-Skilled in building ML models using scikit-learn, TensorFlow, and PyTorch for regression, classification, and generative tasks.
+🤖 Machine Learning & AI
+Languages & Tools: Python, R, TensorFlow, PyTorch, Scikit-learn, Keras, Hugging Face Transformers (BERT, GPT), MLflow, Kubeflow, TensorFlow Extended (TFX), Docker, Kubernetes, AWS SageMaker, Azure ML, Google AI Platform
 
-**- ✅ Big Data & Cloud Engineering.**  
-Proficient with Apache Spark, Hadoop, Kafka, AWS, and GCP to build scalable, distributed data pipelines.
+Techniques: Supervised/Unsupervised Learning, Reinforcement Learning, Predictive Modeling, Recommendation Systems, Natural Language Processing (NLP), Model Deployment, Model Management, AutoML, Deep Learning, Federated Learning, Transfer Learning, AI Model Optimization, MLOps
 
-**- ✅ AI Product Development & Visualization.**  
-Built dynamic dashboards with Power BI and Tableau; explored Generative AI using RAG pipelines and fine-tuning large language models.
+🔍 Data Analysis & Statistical Modeling
+Languages & Tools: Python, R, SQL, Excel, SPSS, Tableau, Power BI, Google Analytics, Looker, SAS, 
+
+Techniques: Regression Analysis, Clustering, Time Series Analysis, Forecasting, Bayesian Inference, Principal Component Analysis (PCA), Hypothesis Testing, A/B Testing, Monte Carlo Simulations, Survival Analysis, Segmentation Analysis​
+
+💻 Data Engineering & Pipeline Development
+Languages & Tools: Scala, Apache Airflow, Apache Kafka, Apache Spark, Hadoop, Flink, Dask, NoSQL (e.g., MongoDB, Cassandra), Docker, Kubernetes
+
+Techniques: Data Pipeline Architecture, ETL Process Design, Big Data Processing, Distributed Computing, Data Warehousing, Data Lake Management, Real-Time Data Processing, Data Integration, Data Orchestration, Data Quality Assurance
+
+📊 Data Visualization & Reporting
+Languages & Tools: Tableau, Power BI, Looker, Plotly, Matplotlib, Seaborn, ggplot2
+
+Techniques: Dashboards, Data Storytelling, Interactive Reports, A/B Testing, Data Exploration, Trend Analysis, KPI Tracking, Geospatial Visualization, Time Series Visualization, User Behavior Analysis
+
+📚 Data Governance & Quality: Data Quality, Metadata Management, Data Lineage, Data Integrity
+
+💡 Market & Business Intelligence: Segmentation, Competitive Analysis, Customer Behavior, Google Analytics, Business Intelligence Tools
 
 ---
 
