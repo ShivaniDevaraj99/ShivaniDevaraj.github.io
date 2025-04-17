@@ -1,75 +1,133 @@
-<style>
-  body {
-    margin-top: 100px;
-    font-family: 'Segoe UI', sans-serif;
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ site.title }}</title>
 
-  .sidebar {
-    width: 250px;
-    padding-left: 20px;
-    padding-right: 20px;
-    flex-shrink: 0;
-  }
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
-  .profile-header {
-    text-align: left;
-  }
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+      }
 
-  .profile-header img {
-    width: 130px;
-    border-radius: 50%;
-    margin-top: 10px;
-  }
+      .sidebar {
+        width: 260px;
+        padding: 20px;
+        background-color: #f9f6fb;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+      }
 
-  .profile-header h1 {
-    font-size: 34px;
-    color: #5a3e71;
-    margin-bottom: 5px;
-  }
+      .profile-header {
+        text-align: center;
+      }
 
-  .social-icons {
-    margin-top: 15px;
-  }
+      .profile-header h1 {
+        font-size: 28px;
+        color: #5a3e71;
+        margin-bottom: 10px;
+      }
 
-  .social-icons a {
-    margin-right: 12px;
-    font-size: 22px;
-    color: #5a3e71;
-    text-decoration: none;
-  }
+      .profile-header img {
+        width: 120px;
+        border-radius: 50%;
+        margin-bottom: 15px;
+      }
 
-  .social-icons a:hover {
-    color: #c3b9ce;
-  }
+      .social-icons a {
+        margin: 0 8px;
+        font-size: 22px;
+        color: #5a3e71;
+        text-decoration: none;
+      }
 
-  .main-content {
-    flex-grow: 1;
-    padding: 0 30px;
-  }
-</style>
+      .social-icons a:hover {
+        color: #c3b9ce;
+      }
 
-<div class="wrapper">
-  <div class="sidebar">
-    <div class="profile-header">
-      <h1>{{ site.title | default: "Shivani Devaraj" }}</h1>
+      .main-content {
+        flex-grow: 1;
+        padding: 30px 40px;
+      }
 
-      {% if site.logo %}
-        <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
-      {% endif %}
+      .navbar {
+        text-align: center;
+        margin-bottom: 30px;
+        background-color: #5a3e71;
+        padding: 12px 0;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
 
-      <div class="social-icons">
-        <a href="https://github.com/ShivaniDevaraj99" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://linkedin.com/in/shivanidevaraj" target="_blank"><i class="fab fa-linkedin"></i></a>
+      .navbar a {
+        margin: 0 15px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .navbar a:hover {
+        color: #e0d6f0;
+        text-decoration: underline;
+      }
+
+      section {
+        scroll-margin-top: 80px;
+      }
+
+      .section-header {
+        background-color: #c3b9ce;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="profile-header">
+        <h1>{{ site.title }}</h1>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
+        {% endif %}
+        <div class="social-icons">
+          <a href="https://github.com/ShivaniDevaraj99" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/shivanidevaraj" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="main-content">
-    <section>{{ content }}</section>
-  </div>
-</div>
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      {{ content }}
+    </div>
+  </body>
+</html>
