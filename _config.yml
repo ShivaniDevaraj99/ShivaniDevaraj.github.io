@@ -1,2 +1,18 @@
-title: Shivani Devaraj
-theme: jekyll-theme-Minimal
+title: "Shivani Devaraj"
+description: "Data Science and BI Portfolio"
+theme: jekyll-theme-minimal
+
+show_downloads: false
+
+author:
+  name: Shivani Devaraj
+  email: shivani@example.com
+
+github:
+  is_project_page: false
+
+# Social Links (optional, works with custom layout)
+social_links:
+  linkedin: shivanidevaraj99
+  github: ShivaniDevaraj
+
