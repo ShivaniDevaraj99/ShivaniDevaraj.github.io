@@ -1,6 +1,4 @@
-
-<p><em>**✨ Fusing computational rigor with human-centered storytelling in data & ML**</em></p>
-
+--
 
 ## 👩‍💻 About Me
 
@@ -9,6 +7,9 @@ Hi, I’m **Shivani Devaraj**, a graduate student in **Applied Data Science** at
 With a strong foundation in machine learning and analytics, I bring a **storyteller’s lens** to my work—making data not only informative, but memorable. Whether it’s visualizing trends, building predictive models, or crafting end-to-end solutions, I believe that data science is most impactful when it’s both rigorous and creative.
 
 Outside the world of numbers and code, I draw inspiration from **art and storytelling**—two passions that deeply shape how I approach problem-solving and design data experiences.
+
+<p><strong><em>✨ Fusing computational rigor with human-centered storytelling in data & ML</em></strong></p>
+
 
 ---
 
