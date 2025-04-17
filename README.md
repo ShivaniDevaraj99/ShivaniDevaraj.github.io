@@ -1,6 +1,5 @@
-<h1 style="font-size: 48px; color: #e76f51;">Shivani Devaraj</h1>
 
-<p><em>### ✨ Fusing computational rigor with human-centered storytelling in data & ML **</em></p>
+<p><em>**✨ Fusing computational rigor with human-centered storytelling in data & ML**</em></p>
 
 
 ## 👩‍💻 About Me
@@ -75,6 +74,7 @@ Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics
 - Built **predictive models** analyzing financial KPIs (e.g., **DSO**, **Bad Debt**) and developed **Tableau dashboards** used by **20+ clients**.  
 - Explored **AI-powered automation** using **embeddings** and **RAG techniques** to streamline internal processes.
 
+---
 
 ## CONTACT DETAILS
 
