@@ -1,72 +1,75 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body {
+    margin-top: 100px;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    {% include head-custom.html %}
-    <style>
-      body {
-        margin-top: 100px;
-        font-family: 'Segoe UI', sans-serif;
-        text-align: center;
-      }
-      .profile-header {
-        margin-bottom: 40px;
-      }
-      .profile-header img {
-        width: 150px;
-        border-radius: 50%;
-        margin-top: 20px;
-      }
-      .profile-header h1 {
-        font-size: 42px;
-        margin-bottom: 10px;
-        color: #5a3e71;
-      }
-      .social-icons a {
-        margin: 0 10px;
-        font-size: 24px;
-        color: #5a3e71;
-        text-decoration: none;
-      }
-      .social-icons a:hover {
-        color: #c3b9ce;
-      }
-    </style>
-  </head>
+  .sidebar {
+    width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-shrink: 0;
+  }
 
-  <body>
-    <div class="wrapper">
-      <!-- Custom Profile Header -->
-      <div class="profile-header">
-        <h1>{{ site.title | default: "Shivani Devaraj" }}</h1>
+  .profile-header {
+    text-align: left;
+  }
 
-        {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
-        {% endif %}
+  .profile-header img {
+    width: 130px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
 
-        <div class="social-icons">
-          <a href="https://github.com/ShivaniDevaraj99" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://linkedin.com/in/shivanidevaraj" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
+  .profile-header h1 {
+    font-size: 34px;
+    color: #5a3e71;
+    margin-bottom: 5px;
+  }
+
+  .social-icons {
+    margin-top: 15px;
+  }
+
+  .social-icons a {
+    margin-right: 12px;
+    font-size: 22px;
+    color: #5a3e71;
+    text-decoration: none;
+  }
+
+  .social-icons a:hover {
+    color: #c3b9ce;
+  }
+
+  .main-content {
+    flex-grow: 1;
+    padding: 0 30px;
+  }
+</style>
+
+<div class="wrapper">
+  <div class="sidebar">
+    <div class="profile-header">
+      <h1>{{ site.title | default: "Shivani Devaraj" }}</h1>
+
+      {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
+      {% endif %}
+
+      <div class="social-icons">
+        <a href="https://github.com/ShivaniDevaraj99" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/shivanidevaraj" target="_blank"><i class="fab fa-linkedin"></i></a>
       </div>
-
-      <!-- Content -->
-      <section>
-        {{ content }}
-      </section>
-
-      <!-- Footer -->
-      <footer>
-        <p><small>© {{ site.title }} — Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
+  </div>
 
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
-</html>
+  <div class="main-content">
+    <section>{{ content }}</section>
+  </div>
+</div>
