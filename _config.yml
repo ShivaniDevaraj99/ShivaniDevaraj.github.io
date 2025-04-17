@@ -1,5 +1,4 @@
 title: Shivani Devaraj
-theme: jekyll-theme-minimal
+theme: minimal
 logo: /assets/profile.jpg
-description: ""  # Leave this blank; we moved title + image into layout
-show_downloads: false
+description: " "  # You can leave this empty
