@@ -33,6 +33,8 @@ title: Shivani Devaraj
   /* Push page content below the fixed navbar */
   body {
     padding-top: 70px;
+    max-width: 1200px;
+    margin: auto;
   }
 
   /* Box styling for section headers */
@@ -43,12 +45,26 @@ title: Shivani Devaraj
     display: inline-block;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 20px; 
+    margin-bottom: 30px; 
     margin-top: 30px;
   }
 
+  /* Ensure anchor scrolls don't hide content */
   section {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 100px;
+  }
+
+  /* Tagline styling */
+  .tagline {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
   }
 </style>
 
