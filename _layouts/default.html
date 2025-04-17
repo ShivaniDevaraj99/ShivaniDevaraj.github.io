@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    {% include head-custom.html %}
+    <style>
+      body {
+        margin-top: 100px;
+        font-family: 'Segoe UI', sans-serif;
+        text-align: center;
+      }
+      .profile-header {
+        margin-bottom: 40px;
+      }
+      .profile-header img {
+        width: 150px;
+        border-radius: 50%;
+        margin-top: 20px;
+      }
+      .profile-header h1 {
+        font-size: 42px;
+        margin-bottom: 10px;
+        color: #5a3e71;
+      }
+      .social-icons a {
+        margin: 0 10px;
+        font-size: 24px;
+        color: #5a3e71;
+        text-decoration: none;
+      }
+      .social-icons a:hover {
+        color: #c3b9ce;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Custom Profile Header -->
+      <div class="profile-header">
+        <h1>{{ site.title | default: "Shivani Devaraj" }}</h1>
+
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
+        {% endif %}
+
+        <div class="social-icons">
+          <a href="https://github.com/ShivaniDevaraj99" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/shivanidevaraj" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <section>
+        {{ content }}
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p><small>© {{ site.title }} — Hosted on GitHub Pages — Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
