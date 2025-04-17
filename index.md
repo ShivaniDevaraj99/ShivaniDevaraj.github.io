@@ -4,7 +4,7 @@ title: Shivani Devaraj
 ---
 
 <style>
-  /* Full-width navbar */
+  /* Full-width navbar with purple background */
   .navbar {
     position: fixed;
     top: 0;
@@ -30,18 +30,14 @@ title: Shivani Devaraj
     color: #e0d6f0;
   }
 
-  /* Override Minima’s content container */
-  .wrapper, .page-content, .post-content {
-    max-width: 1200px !important;
-    width: 95%;
-    margin: 0 auto;
-  }
-
+  /* Push page content below the fixed navbar */
   body {
-    padding-top: 80px;
+    padding-top: 70px;
+    max-width: 1200px;
+    margin: auto;
   }
 
-  /* Section header boxes */
+  /* Box styling for section headers */
   .section-header {
     background-color: #c3b9ce;
     padding: 10px 20px;
@@ -49,22 +45,64 @@ title: Shivani Devaraj
     display: inline-block;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     margin-top: 30px;
   }
 
+  /* Ensure anchor scrolls don't hide content */
   section {
     scroll-margin-top: 100px;
   }
 
-  /* Tagline formatting */
+  /* Tagline styling */
   .tagline {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
     font-style: italic;
     font-weight: bold;
     font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 40px;
-    white-space: nowrap;
+  }
+
+  /* === Projects section in lavender box === */
+  .project-section {
+    background-color: #c3b9ce;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+  }
+
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 10px;
+  }
+
+  .project-card {
+    background: #fdfbff;
+    border: 1px solid #d8cde0;
+    border-radius: 10px;
+    padding: 16px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(90, 62, 113, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(90, 62, 113, 0.2);
+  }
+
+  .project-card img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
   }
 </style>
 
@@ -93,21 +131,34 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-<a name="projects"></a>
-<div class="section-header">🧠 Projects</div>
+## 🧠 <span class="section-header">Projects</span>
 
-### [🔗 Multi-Class Bird Species Classification using Transfer Learning](#)
-[![Bird Classification](https://your-image-link.com/bird_project.png)](https://github.com/your-username/bird-classifier)
+<div class="project-section">
+  <div class="project-grid">
 
----
+    <div class="project-card">
+      <a href="https://github.com/your-username/bird-classifier" target="_blank">
+        <strong>Multi-Class Bird Species Classification</strong>
+      </a>
+      <img src="https://your-image-link.com/bird_project.png" alt="Bird Classification">
+    </div>
 
-### [🔗 FrostFinder: Martian Terrain Frost Detection](#)
-[![FrostFinder](https://your-image-link.com/frostfinder.png)](https://github.com/your-username/frostfinder)
+    <div class="project-card">
+      <a href="https://github.com/your-username/frostfinder" target="_blank">
+        <strong>FrostFinder: Martian Frost Detection</strong>
+      </a>
+      <img src="https://your-image-link.com/frostfinder.png" alt="FrostFinder">
+    </div>
 
----
+    <div class="project-card">
+      <a href="https://github.com/your-username/productivity-insights" target="_blank">
+        <strong>Optimizing Productivity: Behavioral Modeling</strong>
+      </a>
+      <img src="https://your-image-link.com/productivity_project.png" alt="Productivity">
+    </div>
 
-### [🔗 Optimizing Productivity: Behavioral Modeling](#)
-[![Productivity](https://your-image-link.com/productivity_project.png)](https://github.com/your-username/productivity-insights)
+  </div>
+</div>
 
 ---
 
