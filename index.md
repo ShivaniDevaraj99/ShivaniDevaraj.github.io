@@ -4,40 +4,55 @@ title: Shivani Devaraj
 ---
 
 <style>
+  /* Full-width navbar with purple background */
   .navbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #ffffff;
-    border-bottom: 1px solid #e0e0e0;
-    padding: 10px 0;
+    background-color: #5a3e71;
+    padding: 12px 0;
     z-index: 999;
     text-align: center;
+    border-bottom: 2px solid #4b3260;
   }
 
   .navbar a {
-    margin: 0 20px;
+    margin: 0 18px;
     text-decoration: none;
-    color: #222;
+    color: #ffffff;
     font-weight: bold;
     font-size: 16px;
   }
 
   .navbar a:hover {
-    color: #e76f51;
+    text-decoration: underline;
+    color: #e0d6f0;
   }
 
+  /* Push page content below the fixed navbar */
   body {
-    padding-top: 60px; /* adjust this if navbar height changes */
+    padding-top: 70px;
+  }
+
+  /* Box styling for section headers */
+  .section-header {
+    background-color: #c3b9ce;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 60px;
   }
 
   section {
-    scroll-margin-top: 70px;
+    scroll-margin-top: 80px;
   }
 </style>
 
-<div class="navbar" align="center">
+<!-- Navbar with scroll links -->
+<div class="navbar">
   <a href="#about">About</a>
   <a href="#projects">Projects</a>
   <a href="#skills">Skills</a>
@@ -48,7 +63,9 @@ title: Shivani Devaraj
 
 ---
 
-## 👩‍💻 About Me {#about}
+<section id="about">
+  <div class="section-header">👩‍💻 About Me</div>
+</section>
 
 Hi, I’m **Shivani Devaraj**, a graduate student in **Applied Data Science** at the **University of Southern California**. I’m passionate about uncovering insights hidden in messy, complex datasets and transforming them into meaningful, actionable narratives.
 
@@ -60,7 +77,9 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-## 🧠 Projects {#projects}
+<section id="contact">
+  <div class="section-header">🧠 Projects</div>
+</section>
 
 ### [🔗 Multi-Class Bird Species Classification using Transfer Learning](#)
 [![Bird Classification](https://your-image-link.com/bird_project.png)](https://github.com/your-username/bird-classifier)
@@ -77,7 +96,9 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-## 🚀 Core Skills at a Glance {#skills}
+<section id="contact">
+  <div class="section-header">🚀 Core Skills at a Glance</div>
+</section>
 
 - **Machine Learning & AI**: Scikit-Learn, TensorFlow, PyTorch, XGBoost, SageMaker, CNN/RNN/Transformers, Model Deployment, MLOps  
 - **Data Analysis & Stats**: Python, R, SQL, Pandas, NumPy, Hypothesis Testing, A/B Testing, Experiment Design, Web Scraping  
@@ -88,7 +109,9 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-## 🎓 Education {#education}
+<section id="education">
+  <div class="section-header">🎓 Education</div>
+</section>
 
 **University of Southern California**  
 *Master of Science in Applied Data Science*  
@@ -106,7 +129,9 @@ Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics
 
 ---
 
-## 💼 Experience {#experience}
+<section id="experience">
+  <div class="section-header">💼 Experience</div>
+</section>
 
 ### **Intel Corporation**  
 **Application Developer Intern** | *Jan 2022 – Jun 2022*  
@@ -123,7 +148,9 @@ Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics
 
 ---
 
-## 📫 Contact Me {#contact}
+<section id="contact">
+  <div class="section-header">📬 Contact</div>
+</section>
 
 <table>
   <tbody>
