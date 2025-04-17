@@ -4,7 +4,7 @@ title: Shivani Devaraj
 ---
 
 <style>
-  /* Full-width navbar with purple background */
+  /* Full-width navbar */
   .navbar {
     position: fixed;
     top: 0;
@@ -30,14 +30,18 @@ title: Shivani Devaraj
     color: #e0d6f0;
   }
 
-  /* Push page content below the fixed navbar */
-  body {
-    padding-top: 70px;
-    max-width: 1200px;
-    margin: auto;
+  /* Override Minima’s content container */
+  .wrapper, .page-content, .post-content {
+    max-width: 1200px !important;
+    width: 95%;
+    margin: 0 auto;
   }
 
-  /* Box styling for section headers */
+  body {
+    padding-top: 80px;
+  }
+
+  /* Section header boxes */
   .section-header {
     background-color: #c3b9ce;
     padding: 10px 20px;
@@ -49,22 +53,18 @@ title: Shivani Devaraj
     margin-top: 30px;
   }
 
-  /* Ensure anchor scrolls don't hide content */
   section {
     scroll-margin-top: 100px;
   }
 
-  /* Tagline styling */
+  /* Tagline formatting */
   .tagline {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
     font-style: italic;
     font-weight: bold;
     font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 40px;
+    white-space: nowrap;
   }
 </style>
 
