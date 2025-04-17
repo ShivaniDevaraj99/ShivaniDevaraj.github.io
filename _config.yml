@@ -1,18 +1,26 @@
 title: "Shivani Devaraj"
-description: "Data Science and BI Portfolio"
-theme: jekyll-theme-minimal
+description: "Data Science and Business Intelligence Portfolio"
+email: "shivanidevaraj@example.com"
+url: "https://shivanidevaraj.github.io" # base GitHub Pages URL
+baseurl: "/shivani-portfolio" # if deploying under a subdirectory, else ""
 
+# Freelancer Jekyll theme as a remote theme
+remote_theme: jeromelachaud/freelancer-theme
+
+# Social links (optional)
+author:
+  name: "Shivani Devaraj"
+
+plugins:
+  - jekyll-remote-theme
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
+
+# Site Settings
 show_downloads: false
 
-author:
-  name: Shivani Devaraj
-  email: shivani@example.com
-
-github:
-  is_project_page: false
-
-# Social Links (optional, works with custom layout)
-social_links:
-  linkedin: shivanidevaraj99
-  github: ShivaniDevaraj
-
+# Portfolio Data (this references _data/projects.yml)
+collections:
+  portfolio:
+    output: true
