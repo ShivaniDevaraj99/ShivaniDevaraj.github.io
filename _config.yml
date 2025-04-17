@@ -1,3 +1,7 @@
-# Site settings
 title: Shivani Devaraj
 theme: jekyll-theme-minimal
+
+description: "<br><br>"  # Adds vertical space below the title/navbar
+
+logo: /assets/profile.jpg  # Make sure this file exists
+show_downloads: false
