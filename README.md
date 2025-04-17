@@ -1,36 +1,80 @@
+<h1 style="font-size: 48px; color: #e76f51;">Shivani Devaraj</h1>
+
+<p><em>### ✨ Fusing computational rigor with human-centered storytelling in data & ML **</em></p>
+
+
 ## 👩‍💻 About Me
 
-Hi, I'm **Shivani Devaraj** — a graduate student in **Applied Data Science** at USC, passionate about using data to solve real-world problems. I've worked across the full data science lifecycle during my time at **Intel** and **HighRadius**, combining analytics, machine learning, and cloud technologies to deliver impactful solutions.
+Hi, I’m **Shivani Devaraj**, a graduate student in **Applied Data Science** at the **University of Southern California**. I’m passionate about uncovering insights hidden in messy, complex datasets and transforming them into meaningful, actionable narratives.
 
-Beyond data, I’m a fan of **art and storytelling**—skills I channel into transforming complex datasets into compelling insights and visuals.
+With a strong foundation in machine learning and analytics, I bring a **storyteller’s lens** to my work—making data not only informative, but memorable. Whether it’s visualizing trends, building predictive models, or crafting end-to-end solutions, I believe that data science is most impactful when it’s both rigorous and creative.
+
+Outside the world of numbers and code, I draw inspiration from **art and storytelling**—two passions that deeply shape how I approach problem-solving and design data experiences.
 
 ---
+
+## 🧠 Projects
+
+### [🔗 Multi-Class Bird Species Classification using Transfer Learning](#multi-class-bird-species-classification-using-transfer-learning)
+[![Bird Classification](https://your-image-link.com/bird_project.png)](https://github.com/your-username/bird-classifier)
+
+---
+
+### [🔗 FrostFinder: Martian Terrain Frost Detection](#frostfinder-martian-terrain-frost-detection)
+[![FrostFinder](https://your-image-link.com/frostfinder.png)](https://github.com/your-username/frostfinder)
+
+---
+
+### [🔗 Optimizing Productivity: Behavioral Modeling](#optimizing-productivity-behavioral-modeling)
+[![Productivity](https://your-image-link.com/productivity_project.png)](https://github.com/your-username/productivity-insights)
+
+
 
 ## 🚀 Core Skills at a Glance
 
-- **Machine Learning & AI**: Python, Scikit-learn, TensorFlow, SageMaker, NLP, Model Deployment, MLOps  
-- **Data Analysis & Stats**: SQL, Tableau, A/B Testing, Time Series, Hypothesis Testing  
-- **Data Engineering**: Spark, Airflow, Kafka, ETL Pipelines, Real-Time Processing  
-- **BI & Visualization**: Power BI, Tableau, Plotly, Dashboards, Data Storytelling  
+- **Machine Learning & AI**: Scikit-Learn, TensorFlow, PyTorch, XGBoost, SageMaker, CNN/RNN/Transformers, Model Deployment, MLOps  
+- **Data Analysis & Stats**: Python, R, SQL, Pandas, NumPy, Hypothesis Testing, A/B Testing, Experiment Design, Web Scraping  
+- **Data Engineering**: Apache Spark, Hadoop, Hive, Kafka, ETL Pipelines, Real-Time Processing  
+- **BI & Visualization**: Tableau, Power BI, Excel, Matplotlib, Seaborn, Data Storytelling  
+- **Cloud & DevOps**: Google Cloud Platform (GCP), AWS, Docker, Kubernetes, GitHub Actions  
+- **Programming & Tools**: JavaScript, HTML, CSS, Git, Jupyter, Agile Methodologies (Certified ScrumMaster)
 
+---
+
+
+## 🎓 Education
+
+**University of Southern California**  
+*Master of Science in Applied Data Science*  
+**GPA:** 3.67 / 4.00  
+*Los Angeles, CA | Aug 2023 – May 2025*  
+Relevant Coursework: Machine Learning, Data Mining, Optimization Techniques in Data Science, Foundations of Data Management, Fairness in AI
 
 ---
 
-<!--Section 2: List 3-4 key projects-->
-## MY PORTFOLIO 
-
-*A few highlights from my academic and industry work:*
-
-**🧠 Optimizing Productivity with Behavioral Modeling**  
-Used Python and SPSS to explore the effect of caffeine, exercise, and sleep on productivity using regression and hypothesis testing.
-
-**🛰️ FrostFinder: Frost Detection on Martian Terrain**  
-Developed a deep learning pipeline using CNNs (EfficientNetB0, ResNet50, VGG16) to detect frost in 119K+ Mars images with OpenCV preprocessing.
-
-**👤 AttributeMiner: Personal Attribute Extraction**  
-Built rule-based systems to extract attributes (age, gender, hobbies) from image datasets—published at IEEE I2CT 2022.
+**SRM University**  
+*Bachelor of Technology in Computer Science and Engineering*  
+**GPA:** 3.96 / 4.00 — Top 5% of the graduating class  
+*Andhra Pradesh, India | June 2018 – June 2022*
+Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics, Deep Learning
 
 ---
+
+## 💼 Experience
+
+### **Intel Corporation**  
+**Application Developer Intern** | *Jan 2022 – Jun 2022*  
+- Enhanced scalable **data-driven applications** using **C#/.NET** and **SQL pipelines**, boosting system performance and real-time analytics.  
+- Designed and deployed **automated email systems** and **Power BI dashboards** to support **AI-powered analytics workflows**.  
+- Optimized complex queries for efficient **data storage**, **retrieval**, and **reporting** across distributed platforms.  
+- Led cross-functional **UAT training sessions** to promote adoption of integrated **AI/ML modules**.
+
+### **HighRadius Corporation**  
+**Solution Principal Advisor Intern** | *Jun 2021 – Dec 2021*  
+- Collaborated with global firms like **Genpact** and **EY** to deliver **data-driven research** and **automation solutions**.  
+- Built **predictive models** analyzing financial KPIs (e.g., **DSO**, **Bad Debt**) and developed **Tableau dashboards** used by **20+ clients**.  
+- Explored **AI-powered automation** using **embeddings** and **RAG techniques** to streamline internal processes.
+
 
 ## CONTACT DETAILS
 
@@ -60,7 +104,7 @@ Built rule-based systems to extract attributes (age, gender, hobbies) from image
     </tr>
     <tr>
       <td>💻</td>
-      <td><a href="https://github.com/ShivaniDevaraj">GitHub</a></td>
+      <td><a href="https://github.com/ShivaniDevaraj99">GitHub</a></td>
     </tr>
   </tbody>
 </table>
