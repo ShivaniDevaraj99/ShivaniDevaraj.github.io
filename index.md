@@ -43,7 +43,8 @@ title: Shivani Devaraj
     display: inline-block;
     font-size: 24px;
     font-weight: bold;
-    margin-top: 60px;
+    margin-bottom: 20px; 
+    margin-top: 30px;
   }
 
   section {
