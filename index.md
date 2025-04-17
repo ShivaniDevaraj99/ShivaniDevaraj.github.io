@@ -45,7 +45,7 @@ title: Shivani Devaraj
     display: inline-block;
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
     margin-top: 30px;
   }
 
@@ -66,44 +66,7 @@ title: Shivani Devaraj
     margin-top: 10px;
     margin-bottom: 40px;
   }
-
-  /* === Projects section in lavender box === */
-  .project-section {
-    background-color: #c3b9ce;
-    padding: 30px 20px;
-    border-radius: 10px;
-    margin-top: 40px;
-  }
-
-  .project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 10px;
-  }
-
-  .project-card {
-    background: #fdfbff;
-    border: 1px solid #d8cde0;
-    border-radius: 10px;
-    padding: 16px;
-    width: 280px;
-    box-shadow: 0 4px 8px rgba(90, 62, 113, 0.1);
-    text-align: center;
-    transition: transform 0.2s ease;
-  }
-
-  .project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(90, 62, 113, 0.2);
-  }
-
-  .project-card img {
-    max-width: 100%;
-    border-radius: 6px;
-    margin-top: 10px;
-  }
+  
 </style>
 
 <!-- Navbar with scroll links -->
@@ -131,34 +94,21 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-## 🧠 <span class="section-header">Projects</span>
+<a name="skills"></a>
+<div class="section-header">🧠 Projects</div>
 
-<div class="project-section">
-  <div class="project-grid">
+## [🔗 Multi-Class Bird Species Classification using Transfer Learning](#)
+[![Bird Classification](https://your-image-link.com/bird_project.png)](https://github.com/your-username/bird-classifier)
 
-    <div class="project-card">
-      <a href="https://github.com/your-username/bird-classifier" target="_blank">
-        <strong>Multi-Class Bird Species Classification</strong>
-      </a>
-      <img src="https://your-image-link.com/bird_project.png" alt="Bird Classification">
-    </div>
+---
 
-    <div class="project-card">
-      <a href="https://github.com/your-username/frostfinder" target="_blank">
-        <strong>FrostFinder: Martian Frost Detection</strong>
-      </a>
-      <img src="https://your-image-link.com/frostfinder.png" alt="FrostFinder">
-    </div>
+### [🔗 FrostFinder: Martian Terrain Frost Detection](#)
+[![FrostFinder](https://your-image-link.com/frostfinder.png)](https://github.com/your-username/frostfinder)
 
-    <div class="project-card">
-      <a href="https://github.com/your-username/productivity-insights" target="_blank">
-        <strong>Optimizing Productivity: Behavioral Modeling</strong>
-      </a>
-      <img src="https://your-image-link.com/productivity_project.png" alt="Productivity">
-    </div>
+---
 
-  </div>
-</div>
+### [🔗 Optimizing Productivity: Behavioral Modeling](#)
+[![Productivity](https://your-image-link.com/productivity_project.png)](https://github.com/your-username/productivity-insights)
 
 ---
 
