@@ -1,6 +1,47 @@
+---
+layout: default
+title: Shivani Devaraj
+---
 
+<style>
+  .navbar {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 1000;
+  }
 
-## 👩‍💻 About Me
+  .navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .navbar a:hover {
+    color: #e76f51;
+  }
+
+  section {
+    padding-top: 60px;
+    margin-top: -60px;
+  }
+</style>
+
+<div class="navbar" align="center">
+  <a href="#about">About</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+</div>
+
+---
+
+## 👩‍💻 About Me {#about}
 
 Hi, I’m **Shivani Devaraj**, a graduate student in **Applied Data Science** at the **University of Southern California**. I’m passionate about uncovering insights hidden in messy, complex datasets and transforming them into meaningful, actionable narratives.
 
@@ -10,27 +51,26 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 <p><strong><em>✨ Fusing computational rigor with human-centered storytelling in data & ML</em></strong></p>
 
-
 ---
 
-## 🧠 Projects
+## 🧠 Projects {#projects}
 
-### [🔗 Multi-Class Bird Species Classification using Transfer Learning](#multi-class-bird-species-classification-using-transfer-learning)
+### [🔗 Multi-Class Bird Species Classification using Transfer Learning](#)
 [![Bird Classification](https://your-image-link.com/bird_project.png)](https://github.com/your-username/bird-classifier)
 
 ---
 
-### [🔗 FrostFinder: Martian Terrain Frost Detection](#frostfinder-martian-terrain-frost-detection)
+### [🔗 FrostFinder: Martian Terrain Frost Detection](#)
 [![FrostFinder](https://your-image-link.com/frostfinder.png)](https://github.com/your-username/frostfinder)
 
 ---
 
-### [🔗 Optimizing Productivity: Behavioral Modeling](#optimizing-productivity-behavioral-modeling)
+### [🔗 Optimizing Productivity: Behavioral Modeling](#)
 [![Productivity](https://your-image-link.com/productivity_project.png)](https://github.com/your-username/productivity-insights)
 
+---
 
-
-## 🚀 Core Skills at a Glance
+## 🚀 Core Skills at a Glance {#skills}
 
 - **Machine Learning & AI**: Scikit-Learn, TensorFlow, PyTorch, XGBoost, SageMaker, CNN/RNN/Transformers, Model Deployment, MLOps  
 - **Data Analysis & Stats**: Python, R, SQL, Pandas, NumPy, Hypothesis Testing, A/B Testing, Experiment Design, Web Scraping  
@@ -41,8 +81,7 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-
-## 🎓 Education
+## 🎓 Education {#education}
 
 **University of Southern California**  
 *Master of Science in Applied Data Science*  
@@ -55,12 +94,12 @@ Relevant Coursework: Machine Learning, Data Mining, Optimization Techniques in D
 **SRM University**  
 *Bachelor of Technology in Computer Science and Engineering*  
 **GPA:** 3.96 / 4.00 — Top 5% of the graduating class  
-*Andhra Pradesh, India | June 2018 – June 2022*
+*Andhra Pradesh, India | June 2018 – June 2022*  
 Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics, Deep Learning
 
 ---
 
-## 💼 Experience
+## 💼 Experience {#experience}
 
 ### **Intel Corporation**  
 **Application Developer Intern** | *Jan 2022 – Jun 2022*  
@@ -77,9 +116,7 @@ Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics
 
 ---
 
-## CONTACT DETAILS
-
-*Let’s connect and collaborate!*
+## 📫 Contact Me {#contact}
 
 <table>
   <tbody>
