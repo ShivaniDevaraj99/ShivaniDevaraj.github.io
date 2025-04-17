@@ -63,9 +63,8 @@ title: Shivani Devaraj
 
 ---
 
-<section id="about">
-  <div class="section-header">👩‍💻 About Me</div>
-</section>
+<a name="about"></a>
+<div class="section-header">👩‍💻 About Me</div>
 
 Hi, I’m **Shivani Devaraj**, a graduate student in **Applied Data Science** at the **University of Southern California**. I’m passionate about uncovering insights hidden in messy, complex datasets and transforming them into meaningful, actionable narratives.
 
@@ -77,9 +76,8 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-<section id="contact">
-  <div class="section-header">🧠 Projects</div>
-</section>
+<a name="projects"></a>
+<div class="section-header">🧠 Projects</div>
 
 ### [🔗 Multi-Class Bird Species Classification using Transfer Learning](#)
 [![Bird Classification](https://your-image-link.com/bird_project.png)](https://github.com/your-username/bird-classifier)
@@ -96,9 +94,8 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-<section id="contact">
-  <div class="section-header">🚀 Core Skills at a Glance</div>
-</section>
+<a name="skills"></a>
+<div class="section-header">🚀 Core Skills at a Glance</div>
 
 - **Machine Learning & AI**: Scikit-Learn, TensorFlow, PyTorch, XGBoost, SageMaker, CNN/RNN/Transformers, Model Deployment, MLOps  
 - **Data Analysis & Stats**: Python, R, SQL, Pandas, NumPy, Hypothesis Testing, A/B Testing, Experiment Design, Web Scraping  
@@ -109,9 +106,8 @@ Outside the world of numbers and code, I draw inspiration from **art and storyte
 
 ---
 
-<section id="education">
-  <div class="section-header">🎓 Education</div>
-</section>
+<a name="education"></a>
+<div class="section-header">🎓 Education</div>
 
 **University of Southern California**  
 *Master of Science in Applied Data Science*  
@@ -129,9 +125,8 @@ Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics
 
 ---
 
-<section id="experience">
-  <div class="section-header">💼 Experience</div>
-</section>
+<a name="experience"></a>
+<div class="section-header">💼 Experience</div>
 
 ### **Intel Corporation**  
 **Application Developer Intern** | *Jan 2022 – Jun 2022*  
@@ -148,9 +143,8 @@ Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics
 
 ---
 
-<section id="contact">
-  <div class="section-header">📬 Contact</div>
-</section>
+<a name="contact"></a>
+<div class="section-header">📫 Contact Me</div>
 
 <table>
   <tbody>
