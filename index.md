@@ -5,28 +5,35 @@ title: Shivani Devaraj
 
 <style>
   .navbar {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
     background-color: #ffffff;
-    padding: 10px 0;
     border-bottom: 1px solid #e0e0e0;
-    z-index: 1000;
+    padding: 10px 0;
+    z-index: 999;
+    text-align: center;
   }
 
   .navbar a {
-    margin: 0 15px;
+    margin: 0 20px;
     text-decoration: none;
-    color: #333;
+    color: #222;
     font-weight: bold;
+    font-size: 16px;
   }
 
   .navbar a:hover {
     color: #e76f51;
   }
 
+  body {
+    padding-top: 60px; /* adjust this if navbar height changes */
+  }
+
   section {
-    padding-top: 60px;
-    margin-top: -60px;
+    scroll-margin-top: 70px;
   }
 </style>
 
