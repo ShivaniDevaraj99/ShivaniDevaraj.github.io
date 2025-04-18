@@ -14,20 +14,21 @@
         margin: 0;
         font-family: 'Segoe UI', sans-serif;
         display: flex;
-        flex-direction: row;
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 50px;
+        height: 100vh;
+        overflow: hidden;
       }
 
       .sidebar {
-        width: 520px;
-        padding: 45px;
+        width: 320px;
+        padding: 40px 25px;
         background-color: #f9f6fb;
         height: 100vh;
-        position: sticky;
+        position: fixed;
         top: 0;
+        left: 0;
+        overflow-y: auto;
+        border-right: 1px solid #e0ddee;
+        box-sizing: border-box;
       }
 
       .profile-header {
@@ -41,9 +42,16 @@
       }
 
       .profile-header img {
-        width: 120px;
+        width: 130px;
+        height: 130px;
+        object-fit: cover;
         border-radius: 50%;
-        margin-bottom: 15px;
+        margin-top: 10px;
+        border: 3px solid #5a3e71;
+      }
+
+      .social-icons {
+        margin-top: 15px;
       }
 
       .social-icons a {
@@ -58,8 +66,12 @@
       }
 
       .main-content {
-        flex-grow: 1;
+        margin-left: 320px;
         padding: 30px 40px;
+        overflow-y: auto;
+        height: 100vh;
+        flex-grow: 1;
+        scroll-behavior: smooth;
       }
 
       .navbar {
