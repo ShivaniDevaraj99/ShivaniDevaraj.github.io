@@ -120,11 +120,12 @@
   <!-- Sidebar -->
   <div class="sidebar">
     <div class="profile-header">
-      <h1>{{ site.title }}</h1>
-
       {% if site.logo %}
         <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
       {% endif %}
+
+      <h1>{{ site.title }}</h1>
+
       <div class="social-icons">
         <div class="icon-row">
           <a href="https://github.com/ShivaniDevaraj99" target="_blank" aria-label="GitHub">
