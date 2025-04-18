@@ -8,109 +8,110 @@
     {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    height: 100vh;
+    overflow: hidden;
+  }
 
-    <style>
-      body {
-        margin: 0;
-        font-family: 'Segoe UI', sans-serif;
-        display: flex;
-        height: 100vh;
-        overflow: hidden;
-      }
+  .sidebar {
+    width: 520px;
+    padding: 45px;
+    background-color: #f9f6fb;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    flex-shrink: 0;
+  }
 
-      .sidebar {
-        width: 320px;
-        padding: 40px 25px;
-        background-color: #f9f6fb;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        overflow-y: auto;
-        border-right: 1px solid #e0ddee;
-        box-sizing: border-box;
-      }
+  .profile-header {
+    text-align: center;
+  }
 
-      .profile-header {
-        text-align: center;
-      }
+  .profile-header h1 {
+    font-size: 28px;
+    color: #5a3e71;
+    margin-bottom: 10px;
+  }
 
-      .profile-header h1 {
-        font-size: 28px;
-        color: #5a3e71;
-        margin-bottom: 10px;
-      }
+  .profile-header img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 3px solid #5a3e71;
+  }
 
-      .profile-header img {
-        width: 130px;
-        height: 130px;
-        object-fit: cover;
-        border-radius: 50%;
-        margin-top: 10px;
-        border: 3px solid #5a3e71;
-      }
+  .social-icons a {
+    margin: 0 8px;
+    font-size: 22px;
+    color: #5a3e71;
+    text-decoration: none;
+  }
 
-      .social-icons {
-        margin-top: 15px;
-      }
+  .social-icons a:hover {
+    color: #c3b9ce;
+  }
 
-      .social-icons a {
-        margin: 0 8px;
-        font-size: 22px;
-        color: #5a3e71;
-        text-decoration: none;
-      }
+  .main-content {
+    flex-grow: 1;
+    padding: 30px 40px;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+  }
 
-      .social-icons a:hover {
-        color: #c3b9ce;
-      }
+  .main-content::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+  }
 
-      .main-content {
-        margin-left: 320px;
-        padding: 30px 40px;
-        overflow-y: auto;
-        height: 100vh;
-        flex-grow: 1;
-        scroll-behavior: smooth;
-      }
+  .navbar {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #5a3e71;
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
 
-      .navbar {
-        text-align: center;
-        margin-bottom: 30px;
-        background-color: #5a3e71;
-        padding: 12px 0;
-        position: sticky;
-        top: 0;
-        z-index: 10;
-      }
+  .navbar a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-      .navbar a {
-        margin: 0 15px;
-        color: #ffffff;
-        text-decoration: none;
-        font-weight: bold;
-      }
+  .navbar a:hover {
+    color: #e0d6f0;
+    text-decoration: underline;
+  }
 
-      .navbar a:hover {
-        color: #e0d6f0;
-        text-decoration: underline;
-      }
+  section {
+    scroll-margin-top: 80px;
+  }
 
-      section {
-        scroll-margin-top: 80px;
-      }
-
-      .section-header {
-        background-color: #c3b9ce;
-        padding: 10px 20px;
-        border-radius: 5px;
-        display: inline-block;
-        font-size: 24px;
-        font-weight: bold;
-        margin-bottom: 30px;
-        margin-top: 30px;
-      }
-    </style>
+  .section-header {
+    background-color: #c3b9ce;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+</style>
+    
   </head>
 
   <body>
