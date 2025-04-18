@@ -116,19 +116,35 @@
   </head>
 
   <body>
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <div class="profile-header">
-        <h1>{{ site.title }}</h1>
-        {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
-        {% endif %}
-        <div class="social-icons">
-          <a href="https://github.com/ShivaniDevaraj99" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://linkedin.com/in/shivanidevaraj" target="_blank"><i class="fab fa-linkedin"></i></a>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="profile-header">
+      <h1>{{ site.title }}</h1>
+
+      {% if site.logo %}
+        <img src="{{ site.logo | relative_url }}" alt="Profile Photo" />
+      {% endif %}
+
+      <div class="social-icons">
+        <div class="icon-row">
+          <a href="https://github.com/ShivaniDevaraj99" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/shivanidevaraj" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+
+        <div class="contact-row">
+          <p>📧 <a href="mailto:devarajshivani99@gmail.com">devarajshivani99@gmail.com</a></p>
+          <p>📞 +1 (323) 641-1897</p>
+          <p>📍 Los Angeles, CA</p>
+          <p>⬇️ <a href="https://github.com/ShivaniDevaraj/ShivaniDevaraj.github.io/blob/main/docs/Devaraj_Shivani_Resume.pdf" target="_blank">Download my CV</a></p>
         </div>
       </div>
     </div>
+  </div>
+
 
     <!-- Main Content -->
     <div class="main-content">
