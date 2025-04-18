@@ -76,7 +76,6 @@ title: Shivani Devaraj
   <a href="#skills">Skills</a>
   <a href="#education">Education</a>
   <a href="#experience">Experience</a>
-  <a href="#contact">Contact</a>
 </div>
 
 ---
@@ -160,35 +159,3 @@ Relevant Coursework: Advanced Data Structures and Algorithms, Big Data Analytics
 - Explored **AI-powered automation** using **embeddings** and **RAG techniques** to streamline internal processes.
 
 ---
-
-<a name="contact"></a>
-<div class="section-header">📫 Contact Me</div>
-
-<table>
-  <tbody>
-    <tr>
-      <td>📧</td>
-      <td><a href="mailto:devarajshivani99@gmail.com">devarajshivani99@gmail.com</a></td>
-    </tr>
-    <tr>
-      <td>📞</td>
-      <td>+1 (323) 641-1897</td>
-    </tr>
-    <tr>
-      <td>📍</td>
-      <td>Los Angeles, CA</td>
-    </tr>
-    <tr>
-      <td>⬇️</td>
-      <td><a href="https://github.com/ShivaniDevaraj/ShivaniDevaraj.github.io/blob/main/docs/Devaraj_Shivani_Resume.pdf">Download my CV</a></td>
-    </tr>
-    <tr>
-      <td>🌐</td>
-      <td><a href="https://linkedin.com/in/shivanidevaraj">LinkedIn</a></td>
-    </tr>
-    <tr>
-      <td>💻</td>
-      <td><a href="https://github.com/ShivaniDevaraj99">GitHub</a></td>
-    </tr>
-  </tbody>
-</table>
